@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"box_logic_x",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"box_logic_x",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
