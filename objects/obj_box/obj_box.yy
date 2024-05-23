@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_box",
-    "path":"sprites/spr_box/spr_box.yy",
+    "name":"spr_box_1",
+    "path":"sprites/spr_box_1/spr_box_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

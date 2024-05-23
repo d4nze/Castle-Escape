@@ -41,3 +41,9 @@ if place_meeting(x, y + v_spd, obj_box)
 		v_spd = 0
 }
 y += v_spd
+
+if v_spd and h_spd {
+	image_speed = 1
+}
+
+else image_speed = 0
