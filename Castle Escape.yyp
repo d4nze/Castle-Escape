@@ -50,7 +50,6 @@
     {"id":{"name":"spr_trigger_finish","path":"sprites/spr_trigger_finish/spr_trigger_finish.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_walls","path":"sprites/spr_walls/spr_walls.yy",},},
-    {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},},
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},},
     {"id":{"name":"ts_wall","path":"tilesets/ts_wall/ts_wall.yy",},},
   ],
