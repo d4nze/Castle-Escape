@@ -1,27 +1,8 @@
-h_input = keyboard_check(vk_right) - keyboard_check(vk_left)
-v_input = keyboard_check(vk_down) - keyboard_check(vk_up)
+var _h_input = keyboard_check_pressed(vk_right) - keyboard_check_pressed(vk_left)
+var _v_input = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
 
-is_sprinting = keyboard_check(vk_shift)
-
-// Sprint logic
-current_spd = normal_spd
-
-if is_sprinting
-{
-	if sprint_stamina > 0
-	{
-		current_spd = sprint_spd
-		sprint_stamina--
-	}
-}
-else
-	sprint_stamina = min(sprint_stamina_start, sprint_stamina + 1)
-
-// Adding momentum
-h_spd = h_input * current_spd
-v_spd = v_input * current_spd
-
-// Simple collision
+h_spd = _h_input * 16
+v_spd = _v_input * 16
 
 if place_meeting(x + h_spd, y, obj_wall)
 	h_spd = 0
@@ -32,6 +13,7 @@ if place_meeting(x + h_spd, y, obj_box)
 		h_spd = 0
 }
 x += h_spd
+
 if place_meeting(x, y + v_spd, obj_wall)
 	v_spd = 0
 if place_meeting(x, y + v_spd, obj_box)
@@ -41,9 +23,3 @@ if place_meeting(x, y + v_spd, obj_box)
 		v_spd = 0
 }
 y += v_spd
-
-if v_spd and h_spd {
-	image_speed = 1
-}
-
-else image_speed = 0

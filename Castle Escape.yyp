@@ -35,8 +35,8 @@
   "name":"Castle Escape",
   "resources":[
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
+    {"id":{"name":"obj_finish","path":"objects/obj_finish/obj_finish.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_trigger_finish","path":"objects/obj_trigger_finish/obj_trigger_finish.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
     {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
@@ -45,9 +45,9 @@
     {"id":{"name":"spr_box_1","path":"sprites/spr_box_1/spr_box_1.yy",},},
     {"id":{"name":"spr_box_2","path":"sprites/spr_box_2/spr_box_2.yy",},},
     {"id":{"name":"spr_box_3","path":"sprites/spr_box_3/spr_box_3.yy",},},
+    {"id":{"name":"spr_finish","path":"sprites/spr_finish/spr_finish.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
-    {"id":{"name":"spr_trigger_finish","path":"sprites/spr_trigger_finish/spr_trigger_finish.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_walls","path":"sprites/spr_walls/spr_walls.yy",},},
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},},
@@ -56,8 +56,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
+    {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

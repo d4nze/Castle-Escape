@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_trigger_finish",
+  "%Name":"obj_finish",
   "eventList":[],
   "managed":true,
-  "name":"obj_trigger_finish",
+  "name":"obj_finish",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_trigger_finish",
-    "path":"sprites/spr_trigger_finish/spr_trigger_finish.yy",
+    "name":"spr_finish",
+    "path":"sprites/spr_finish/spr_finish.yy",
   },
   "spriteMaskId":null,
   "visible":true,
