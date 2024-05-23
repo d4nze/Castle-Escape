@@ -4,7 +4,7 @@ var _v_input = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up)
 h_spd = _h_input * 16
 v_spd = _v_input * 16
 
-if place_meeting(x + h_spd, y, obj_wall)
+if place_meeting(x + h_spd, y, global.walls)
 	h_spd = 0
 if place_meeting(x + h_spd, y, obj_box)
 {
@@ -14,7 +14,7 @@ if place_meeting(x + h_spd, y, obj_box)
 }
 x += h_spd
 
-if place_meeting(x, y + v_spd, obj_wall)
+if place_meeting(x, y + v_spd, global.walls)
 	v_spd = 0
 if place_meeting(x, y + v_spd, obj_box)
 {
