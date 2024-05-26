@@ -17,6 +17,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_box_horizontal","order":7,"path":"objects/obj_box_horizontal/obj_box_horizontal.yy",},
+    {"name":"obj_box_vertical","order":8,"path":"objects/obj_box_vertical/obj_box_vertical.yy",},
     {"name":"obj_box","order":3,"path":"objects/obj_box/obj_box.yy",},
     {"name":"obj_congrats","order":6,"path":"objects/obj_congrats/obj_congrats.yy",},
     {"name":"obj_controls","order":4,"path":"objects/obj_controls/obj_controls.yy",},
@@ -25,6 +27,7 @@
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
     {"name":"rm_level_end","order":2,"path":"rooms/rm_level_end/rm_level_end.yy",},
     {"name":"rm_level_start","order":1,"path":"rooms/rm_level_start/rm_level_start.yy",},
+    {"name":"rm_level_test","order":3,"path":"rooms/rm_level_test/rm_level_test.yy",},
     {"name":"box_logic_y","order":1,"path":"scripts/box_logic_y/box_logic_y.yy",},
     {"name":"spr_box_1","order":3,"path":"sprites/spr_box_1/spr_box_1.yy",},
     {"name":"spr_box_2","order":4,"path":"sprites/spr_box_2/spr_box_2.yy",},

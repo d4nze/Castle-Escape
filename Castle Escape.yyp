@@ -34,6 +34,8 @@
   },
   "name":"Castle Escape",
   "resources":[
+    {"id":{"name":"obj_box_horizontal","path":"objects/obj_box_horizontal/obj_box_horizontal.yy",},},
+    {"id":{"name":"obj_box_vertical","path":"objects/obj_box_vertical/obj_box_vertical.yy",},},
     {"id":{"name":"obj_box","path":"objects/obj_box/obj_box.yy",},},
     {"id":{"name":"obj_congrats","path":"objects/obj_congrats/obj_congrats.yy",},},
     {"id":{"name":"obj_controls","path":"objects/obj_controls/obj_controls.yy",},},
@@ -42,6 +44,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_level_end","path":"rooms/rm_level_end/rm_level_end.yy",},},
     {"id":{"name":"rm_level_start","path":"rooms/rm_level_start/rm_level_start.yy",},},
+    {"id":{"name":"rm_level_test","path":"rooms/rm_level_test/rm_level_test.yy",},},
     {"id":{"name":"box_logic_x","path":"scripts/box_logic_x/box_logic_x.yy",},},
     {"id":{"name":"box_logic_y","path":"scripts/box_logic_y/box_logic_y.yy",},},
     {"id":{"name":"spr_box_1","path":"sprites/spr_box_1/spr_box_1.yy",},},
@@ -60,6 +63,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_level_start","path":"rooms/rm_level_start/rm_level_start.yy",},},
+    {"roomId":{"name":"rm_level_test","path":"rooms/rm_level_test/rm_level_test.yy",},},
     {"roomId":{"name":"rm_level_end","path":"rooms/rm_level_end/rm_level_end.yy",},},
   ],
   "templateType":"game",
